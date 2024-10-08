@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0px 0px 20px 15px gray;
+        }
+        #card div img{
+            width: 100px;
+            border-radius: 40%;
+        }
+    </style>
+</head>
+<body>
+     <form>
+        <input type="text" id="name" placeholder="Enter name"><br>
+        <input type="text" id="city" placeholder="Enter city"><br>
+        <input type="text" id="age" placeholder="Enter age"><br>
+        <input type="text" id="img" placeholder="Enter image url"><br>
+        <button onclick="return card();">generate card</button>
+     </form>
+
+     <div id="output">
+        
+     </div>
+
+    <script src="./question5.js"></script>
+</body>
+</html>
